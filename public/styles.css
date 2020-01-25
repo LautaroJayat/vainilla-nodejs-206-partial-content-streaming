@@ -1,0 +1,30 @@
+body {
+    max-width: 100%;
+}
+
+.player-contianer {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 60px;
+    height: 250px;
+    max-height: 250px;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+video {
+    display: block;
+    height: 100%;
+    max-height: 100%;
+    width: auto;
+}
+
+h1 {
+    color: green
+}
