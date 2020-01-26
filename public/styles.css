@@ -1,14 +1,26 @@
 body {
     max-width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
 }
 
 .player-contianer {
     position: relative;
+    margin-top: 2vh;
     display: block;
-    width: 100%;
-    min-height: 60px;
-    height: 250px;
-    max-height: 250px;
+    width: auto;
+    height: auto;
+    max-height: 480px;
+    max-width: 360px;
     display: flex;
     justify-content: start;
     align-content: center;
@@ -20,11 +32,36 @@ audio {
 
 video {
     display: block;
-    height: 100%;
+    height: auto;
     max-height: 100%;
+    max-width: 100%;
     width: auto;
 }
 
 h1 {
-    color: green
+    color: green;
+    text-align: center;
 }
+
+ol {
+    max-width: 500px;
+}
+
+button {
+    margin: 1rem;
+    height: 3rem;
+    width: auto;
+    min-width: 15rem;
+    border: none;
+    font-family: monospace;
+    background-color: rgb(153, 241, 153);
+    font-size: large;
+}
+
+button:hover {
+    background-color: rgb(85, 236, 85);
+}
+button{
+    border: 1px solid rgb(2, 156, 2)
+}
+
